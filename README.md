@@ -1,7 +1,14 @@
 Issue
 -----
 
-I've been trying to get [Guard](https://github.com/guard/guard) setup. It runs, but I've been facing a frustrating issue where all of the tests run twice. I've tried to reduce this to the simplest setup that reproduces the issue. This is that setup.
+I've been trying to get [Guard](https://github.com/guard/guard) setup. It runs,
+but I've been facing a frustrating issue where all of the tests run twice. I've
+tried to reduce this to the simplest setup that reproduces the issue. This is
+that setup.
+
+Additionally, I'm running OS X 10.8.1.
+
+  `Darwin 12.1.0 Darwin Kernel Version 12.1.0: Tue Aug 14 13:29:55 PDT 2012; root:xnu-2050.9.2~1/RELEASE_X86_64 x86_64`
 
 
 Steps to Reproduce
