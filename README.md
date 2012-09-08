@@ -19,6 +19,20 @@ Steps to Reproduce
   * Edit the spec file `spec/lib/hello_spec.rb`
   * Just add a line that says `nil` anywhere in the file, then save.
 
+    ```ruby
+    require 'spec_helper'
+    nil
+
+    describe Hello do
+      describe "#speak" do
+        it "should say 'Hello friend'" do
+          h = Hello.new
+          h.speak("friend").should be "Hello friend"
+        end
+      end
+    end
+    ```
+
 
 My Shell Output
 ---------------
