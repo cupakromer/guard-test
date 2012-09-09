@@ -41,11 +41,35 @@ Steps to Reproduce
     ```
 
 
+Gem List
+--------
+
+```
+$ gem list
+
+*** LOCAL GEMS ***
+
+bundler (1.2.0)
+diff-lcs (1.1.3)
+guard (1.3.2)
+guard-rspec (1.2.1)
+listen (0.5.0)
+rake (0.9.2.2)
+rspec (2.11.0)
+rspec-core (2.11.1)
+rspec-expectations (2.11.3)
+rspec-mocks (2.11.2)
+rubygems-bundler (1.0.7)
+rvm (1.11.3.5)
+thor (0.16.0)
+```
+
+
 My Shell Output
 ---------------
 
   ```shell
-  › bundle exec guard --debug
+  $ bundle exec guard --debug
   DEBUG (19:20:26): Command execution: emacsclient --eval '1' 2> /dev/null || echo 'N/A'
   Guard could not detect any of the supported notification libraries.
   Guard is now watching at '/Users/aaron/dev/guard-test'
